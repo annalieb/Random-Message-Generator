@@ -12,6 +12,7 @@ input {
 body {
   background-image: url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/17-index-whatisfeminism-1552076366.jpg);
   background-size: contain;
+  object-fit: cover;
 }
 
 #text {
@@ -40,5 +41,8 @@ body {
     margin: 25%;
     margin-top: 10%;
     margin-bottom: 10%;
+  }
+  #messageOutput {
+    font-size: 25px;
   }
 }
