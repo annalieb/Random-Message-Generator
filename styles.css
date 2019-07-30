@@ -4,6 +4,41 @@
 }
 input {
   border: 2px solid black;
-  font-size: 16px;
-  font-family: sans-serif;
+  background-color: pink;
+  font-size: 14px;
+  font-family: "Lucida Console", Monaco, monospace;
+}
+
+body {
+  background-image: url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/17-index-whatisfeminism-1552076366.jpg);
+  background-size: contain;
+}
+
+#text {
+  background-color: white;
+  width: 50%;
+  height: 50%;
+  padding: 5%;
+  margin: 20%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+#messageOutput {
+  font-size: 20px;
+}
+
+@media screen and (min-width: 1000px) {
+  h1 {
+    font-size: 40px;
+  }
+  #text {
+    background-color: white;
+    width: 40%;
+    height: 40%;
+    padding: 5%;
+    margin: 25%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
 }
